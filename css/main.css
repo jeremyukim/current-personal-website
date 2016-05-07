@@ -1,0 +1,9 @@
+#landingPageBackground {
+  background: url('../img/dark_skyline_full.jpg') -25px -50px;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 0;
+  height: 100vh;
+  background-size: cover cover calc(100% + 50px);
+}
