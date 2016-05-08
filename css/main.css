@@ -31,17 +31,32 @@
   background-size: 100% calc(100% + 50px);
 }
 
-#landingPageText {
-  position: fixed;
-  display: inline-block;
-}
-
-#name {
+#name1 {
   background-color: inherit;
   z-index: 1;
   font-size: 4em;
   padding: 0px;
-  display: inline-block;
+  display: none;
   margin-bottom: -5px;
+  -webkit-animation-delay: 0s;
+  -moz-animation-duration: 0s;
   /*border: 10px solid white;*/
+}
+
+#name2 {
+  z-index: 1;
+  font-size: 4em;
+  padding: 0px;
+  display: none;
+  margin-bottom: -5px;
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+}
+
+/*Breakpoints*/
+@media (min-width: 768px){
+  #name1, #name2, #underName {
+    margin-left: 15px;
+  }
 }
