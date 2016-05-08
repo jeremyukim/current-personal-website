@@ -1,9 +1,44 @@
+/*General text styling*/
+.whiteText {
+  color: white;
+}
+
+.openSans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+.extraSpacing {
+  letter-spacing: 0.05em;
+}
+
+.verticalCenter {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+
 #landingPageBackground {
-  background: url('../img/dark_skyline_full.jpg') -25px -50px;
+  background: url('../img/dark_skyline_cut.jpg') -25px -50px;
   position: fixed;
   top: 0;
   width: 100vw;
   z-index: 0;
   height: 100vh;
   background-size: cover cover calc(100% + 50px);
+}
+
+#name {
+  background-color: inherit;
+  z-index: 1;
+  font-size: 4em;
+  padding: 0px;
+  display: inline-block;
+  margin-bottom: -10px;
+  /*border: 10px solid white;*/
 }
