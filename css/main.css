@@ -90,7 +90,7 @@ a:focus {
   margin-bottom: -5px;
   animation-delay: .2s;
   -webkit-animation-delay: .2s;
-  -moz-animation-duration: .2s;
+  -moz-animation-delay: .2s;
   /*border: 10px solid white;*/
 }
 
@@ -141,7 +141,7 @@ a:focus {
 .me {
 	border-radius: 50%;
 	width: 200px;
-	box-shadow: 1px 2px 1px 1px #555;
+	box-shadow: .5px 1px .5px .5px #555;
 }
 
 .btn {
