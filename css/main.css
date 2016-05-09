@@ -9,6 +9,7 @@
 
 .raleway {
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
 }
 
 .extraSpacing {
@@ -21,6 +22,27 @@
   transform: translateY(-50%);
 }
 
+a {
+  text-decoration: none;
+  color: #33cc33;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #248f24;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #33cc33;
+}
+
+a:focus {
+  text-decoration: none;
+}
+/*=======================*/
+
+/*Landing page */
 #landingPageBackground {
   background: url('../img/dark_skyline_cut.jpg') -25px -50px;
   position: fixed;
@@ -34,7 +56,7 @@
 #name1 {
   background-color: inherit;
   z-index: 1;
-  font-size: 4em;
+  font-size: 6rem;
   padding: 0px;
   display: none;
   margin-bottom: -5px;
@@ -44,8 +66,9 @@
 }
 
 #name2 {
+  color: #33cc33;
   z-index: 1;
-  font-size: 4em;
+  font-size: 6rem;
   padding: 0px;
   display: none;
   margin-bottom: -5px;
@@ -54,9 +77,25 @@
   -moz-animation-delay: 1s;
 }
 
-/*Breakpoints*/
-@media (min-width: 768px){
-  #name1, #name2, #underName {
-    margin-left: 15px;
-  }
+#photoCredit {
+  font-size: 1.5rem;
+  position:relative;
+  top: 95vh;
 }
+/*=====================*/
+
+/*Breakpoints*/
+/*@media (max-width: 440px){
+  #name1, #name2 {
+    margin-left: 15px;
+    font-size: 90px;
+  }
+  #underName {
+    margin-top: 30px;
+    margin-left: 15px;
+    font-size: 25px;
+  }
+  #photoCredit {
+    font-size: 500px;
+  }
+}*/
