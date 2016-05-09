@@ -84,29 +84,37 @@ a:focus {
 #name1 {
   background-color: inherit;
   z-index: 1;
-  font-size: 6rem;
+  font-size: 4em;
   padding: 0px;
   display: none;
   margin-bottom: -5px;
-  -webkit-animation-delay: .3s;
-  -moz-animation-duration: .3s;
+  animation-delay: .2s;
+  -webkit-animation-delay: .2s;
+  -moz-animation-duration: .2s;
   /*border: 10px solid white;*/
 }
 
 #name2 {
   color: #33cc33;
   z-index: 1;
-  font-size: 6rem;
+  font-size: 4em;
   padding: 0px;
   display: none;
   margin-bottom: -5px;
   animation-delay: 1s;
-  -webkit-animation-delay: 1.3s;
-  -moz-animation-delay: 1.1s;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+}
+
+#underName {
+  font-size: 1.7em;
+  animation-delay: 1.8s;
+  -webkit-animation-delay: 1.8s;
+  -moz-animation-delay: 1.8s;
 }
 
 #photoCredit {
-  font-size: 1.5rem;
+  font-size: 0.8em;
   position:relative;
   top: 95%;
 }
@@ -160,6 +168,37 @@ a:focus {
 /*=====================*/
 
 /*Breakpoints*/
+@media (max-width: 992px){
+  #name1, #name2 {
+    font-size: 3em;
+    margin-left: 20px;
+  }
+
+  #underName {
+    font-size: 1.2em;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 410px){
+  #name1, #name2 {
+    font-size: 3em;
+  }
+
+  #name2 {
+    margin-top: 5px;
+  }
+
+  #underName {
+    font-size: 1em;
+    margin-top: 10px;
+  }
+
+  #photoCredit {
+    font-size: 0.6em;
+  }
+}
+
 /*@media (max-width: 440px){
   #name1, #name2 {
     margin-left: 15px;
