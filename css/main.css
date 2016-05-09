@@ -60,8 +60,8 @@ a:focus {
   padding: 0px;
   display: none;
   margin-bottom: -5px;
-  -webkit-animation-delay: 0s;
-  -moz-animation-duration: 0s;
+  -webkit-animation-delay: .3s;
+  -moz-animation-duration: .3s;
   /*border: 10px solid white;*/
 }
 
@@ -73,8 +73,8 @@ a:focus {
   display: none;
   margin-bottom: -5px;
   animation-delay: 1s;
-  -webkit-animation-delay: 1s;
-  -moz-animation-delay: 1s;
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
 }
 
 #photoCredit {
