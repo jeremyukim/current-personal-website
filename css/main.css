@@ -248,7 +248,7 @@ a:focus {
 
 #pivotalSection {
   padding: 70px 0;
-  background: #ddd;
+  background: linear-gradient(to right, #eee 50%, #ddd 50%);
 }
 
 /*==================================== Projects ====================================*/
@@ -281,17 +281,17 @@ a:focus {
 }
 
 #project1Section {
-  background-color: #ddd;
+  background-color: #eee;
   padding: 5em 0;
 }
 
 #project2Section {
-  background-color: #f3f3f3;
+  background-color: #ddd;
   padding: 5em 0;
 }
 
 #project3Section {
-  background-color: #ddd;
+  background-color: #eee;
   padding: 5em 0;
 }
 
@@ -301,6 +301,12 @@ footer {
 }
 
 /*==================================== Breakpoints ====================================*/
+@media (max-width: 1200px){
+  .topMarginBig {
+    margin-top: 95px;
+  }
+}
+
 @media (max-width: 992px){
   #name1, #name2 {
     font-size: 3em;
@@ -310,6 +316,10 @@ footer {
   #underName {
     font-size: 1.2em;
     margin-left: 20px;
+  }
+
+  .topMarginBig {
+    margin-top: 130px;
   }
 }
 
@@ -324,6 +334,14 @@ footer {
 }
 
 @media (max-width: 768px){
+  #pivotallogo {
+    width: 300px;
+  }
+
+  .topMarginBig {
+    margin-top: 30px;
+  }
+
   #aboutText {
     font-size: 3em;
   }
@@ -350,6 +368,10 @@ footer {
 
   .boxShadow {
     margin-top: 15px;
+  }
+
+  #pivotalSection {
+    background: linear-gradient(to right, #eee 50%, #eee 50%);
   }
 }
 
