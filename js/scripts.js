@@ -11,7 +11,7 @@ $(document).ready(function() {
   });
 });
 
-$(window).load(function() {
+$(document).ready(function() {
   $("#name1").css("display", "inline-block").addClass("animated pulse");
   $("#name2").css("display", "inline-block").addClass("animated fadeIn");
   $("#underName").addClass("animated fadeIn");
