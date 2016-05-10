@@ -265,23 +265,17 @@ a:focus {
 
 #project1Section {
   background-color: #ddd;
-  padding: 2.5em 0;
+  padding: 5em 0;
 }
 
 #project2Section {
   background-color: #f3f3f3;
-  padding: 2.5em 0;
+  padding: 5em 0;
 }
 
 #project3Section {
   background-color: #ddd;
-  padding: 2.5em 0;
-}
-
-#project1to2 {
-	padding-top: 2em;
-	padding-bottom: 2em;
-	background: linear-gradient(to right bottom, #ddd 50%, #eee 50%);
+  padding: 5em 0;
 }
 
 footer {
