@@ -121,6 +121,10 @@ a:focus {
   background: linear-gradient(to left bottom, #f3f3f3 50%, #ddd 50%);
 }
 
+.marginBottom {
+  margin-bottom: 16px;
+}
+
 /*==================================== Landing page ====================================*/
 #landingPageBackground {
   background: url('../img/dark_skyline_cut.jpg') -25px -50px;
