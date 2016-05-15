@@ -9,10 +9,39 @@ $(document).ready(function() {
     var newvalueY = height * pageY * -1 - 50;
     $('#landingPageBackground').css("background-position", newvalueX + "px     " + newvalueY + "px");
   });
-});
-
-$(document).ready(function() {
   $("#name1").css("display", "inline-block").addClass("animated pulse");
   $("#name2").css("display", "inline-block").addClass("animated fadeIn");
   $("#underName").addClass("animated fadeIn");
+
+  //Set state of expand/collapse buttons
+  var state = true;
+  $('#learnMore1').click(function() {
+    if (state) {
+      $("#learnMore1").attr('src', 'img/minus_lime.png');
+      state=false;
+    } else {
+      $("#learnMore1").attr('src', 'img/plus_lime.png');
+      state=true;
+    }
+  });
+  var state = true;
+  $('#learnMore2').click(function() {
+    if (state) {
+      $("#learnMore2").attr('src', 'img/minus_lime.png');
+      state=false;
+    } else {
+      $("#learnMore2").attr('src', 'img/plus_lime.png');
+      state=true;
+    }
+  });
+  var state = true;
+  $('#learnMore3').click(function() {
+    if (state) {
+      $("#learnMore3").attr('src', 'img/minus_lime.png');
+      state=false;
+    } else {
+      $("#learnMore3").attr('src', 'img/plus_lime.png');
+      state=true;
+    }
+  });
 });
