@@ -1,15 +1,198 @@
 <html lang="en">
   <head>
-    <title></title>
+    <title>Jeremy Kim | Web Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:700|Open+Sans:300,600' rel='stylesheet' type='text/css'>
     <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </head>
   <body>
+    <!-- Full screen background -->
+    <div id="landingPageBackground">
+      <p id="photoCredit" class="text-center whiteText extraSpacing openSans">Original image by <a class="limeText" target="_blank" href="https://www.flickr.com/photos/alexindigo/">Alex Indigo</a>. Licensed under <a class="limeText" target="_blank" href="https://creativecommons.org/licenses/by/2.0/">Creative Commons 2.0</a></p>
+    </div>
 
+    <div class="container">
+      <div class="verticalCenter">
+        <span><h1 id="name1" class="whiteText extraSpacing raleway">HI THERE,&nbsp;</h1><h1 id="name2" class="whiteText extraSpacing raleway">I'M JEREMY</h1></span>
+        <h3 id="underName" class="whiteText extraSpacing openSans">Designer &bull; Developer &bull; Engineer-in-training</h3>
+      </div>
+    </div>
+
+    <!-- <section id="separation"></section> -->
+    <!-- About Section -->
+    <section class="about">
+      <div class="container">
+			<h1 class="raleway text-center" id="aboutText">It's nice to meet you!</h1>
+			<div class="row">
+				<div class="col-sm-3 col-sm-offset-1">
+					<img src="img/me.png" class="img-responsive me pull-right">
+				</div>
+				<div class="col-sm-6">
+					<p class="openSans bigP firstAbout">I'm an aspiring web and mobile application developer, studying systems design engineering at the University of Waterloo.  I have a passion for design and creating aesthetic, user-centered interfaces.  I also love playing the guitar and ukulele, watching Disney/Pixar or superhero movies, and exploring all that Toronto has to offer.</p>
+					<p class="openSans bigP">Last April I finished a four month internship at Pivotal Labs Toronto, and am currently seeking one for this coming September!  Please send an email my way for any inquiries or to discuss my qualifications.
+					</p>
+				</div>
+        <div class="col-sm-2"></div>
+			</div>
+			<div class="row text-center">
+				<a target="_blank blackText" class="btn" href="resume.pdf">MY RESUME</a>
+			</div>
+    </section>
+    <!-- <section class="lightToDark"></section> -->
+    <!-- Experience Section -->
+    <section class="experienceSection">
+      <p class="raleway extraSpacing text-center whiteText sectionHeader"><span class="headline">EXPERIENCE</span></p>
+    </section>
+    <!-- <section class="darkToGrey"></section> -->
+    <!-- PIVOTAL -->
+    <section id="pivotalSection">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-sm-6">
+  					<p class="raleway entryHeader">PIVOTAL LABS</p>
+  					<h4 class="openSansBold marginBottom">Agile Test Engineer | January - April 2016 | Toronto, ON</h4>
+  					<p class="openSans bigP">As part of the Exploratory Testing Team at Pivotal, my responsibilities included testing web and mobile applications in continuous integration, conducting charters to find bugs and suggest new features, developing UI automation tests with Google's Espresso framework, and designing/developing a device signout application used by the Toronto division. </p>
+  					<p class="openSans bigP">During this term I experienced the agile development process firsthand while testing major applications in a fast-paced environment.</p>
+  				</div>
+  				<div class="col-sm-6">
+  					<img src="img/pivotallabs.png" id="pivotallogo" class="img-responsive topMarginBig">
+  				</div>
+  			</div>
+  		</div>
+	  </section>
+    <!-- <section class="greyToDark"></section> -->
+    <!-- Projects -->
+    <section class="projectSection">
+      <p class="raleway extraSpacing text-center whiteText sectionHeader"><span class="headline">PROJECTS</span></p>
+    </section>
+    <!-- <section class="darkToGrey"></section> -->
+    <!-- First project -->
+    <section id="project1Section">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-sm-6">
+  					<p class="raleway entryHeader">VOLUNTELL</p>
+  					<h4 class="openSansBold marginBottom">A Web Application</h4>
+  					<p class="openSans bigP">Voluntell is an ongoing project in its early stages, with the goal of connecting people to volunteer opportunities nearby.</p>
+            <p class="openSans bigP">Currently, I am collaborating with a small team of three, designing mockups and using HTML/CSS to prototype pages of the web application.</p>
+  					<span class="learnMore">Learn more<img id="learnMore1" src="img/plus_lime.png" class="img-responsive collapseAndExpand" data-toggle="collapse" data-target="#moreVoluntell"></span>
+  				</div>
+  				<div class="col-sm-6">
+  					<img src="img/vlt.png" class="img-responsive boxShadow">
+  				</div>
+  			</div>
+  			<div id="moreVoluntell" class="collapse">
+  				<h3 class="openSansBold topMargin">Mission Statement</h3>
+          <!-- Target audience and personas -->
+      		<p class="openSans bigP">As a small team of engineering students, we recognized a need for accessible, efficient communication between organizations and individuals. Between searching for opportunities/volunteers, sending emails, making calls, and filling paperwork, the current system is simply too time-consuming and inefficient.  Our mission is to optimize this process, connecting individuals to the places they're needed most.</p>
+          <h3 class="openSansBold topMargin">Design for the User</h3>
+          <p class="openSans bigP">Primary User 1: Non-profit organizations seeking passionate volunteers for specific roles.</p>
+          <p class="openSans bigP">Primary User 2: Individuals/students looking to serve in organizations and causes they believe in.</p>
+          <h4 class="openSansBold topMargin">What are the needs of the primary users?</h4>
+          <p class="openSans bigP">We put ourselves in their shoes to find out.</p>
+          <div class="row">
+            <div class="col-md-6">
+              <h4 class="openSansBold topMarginSmall">As an organization seeking volunteers, I want:</h4>
+              <p class="openSans bigP">&bull; user profiles for candidates where I can view a short summary, background check, past experience, and current employment status (student, full-time, etc.)</p>
+              <p class="openSans bigP">&bull; a user-friendly interface to post open volunteer positions with a description of the role, time period required, and location</p>
+              <p class="openSans bigP">&bull; in-app messaging functionality to contact potential volunteers</p>
+            </div>
+            <div class="col-md-6">
+              <h4 class="openSansBold topMarginSmall">As an individual seeking opportunities, I want:</h4>
+              <p class="openSans bigP">&bull; organization profiles so I can view their cause, open volunteer opportunities near me, and descriptions/responsibilities for each listed position </p>
+              <p class="openSans bigP">&bull; personal profile where my experience, interests, and supported causes can be shown</p>
+              <p class="openSans bigP">&bull; the option to log my volunteer hours and have them approved by the organization</p>
+            </div>
+          </div>
+    		</div>
+  		</div>
+    </section>
+    <!-- <section class="greyToLight"></section> -->
+    <!-- Second project -->
+    <section id="project2Section">
+  		<div class="container">
+  			<div class="row">
+          <div class="col-sm-6 col-sm-push-6">
+            <p class="raleway entryHeader">DIGITAL PORTFOLIO</p>
+  					<h4 class="openSansBold marginBottom">You're on it now!</h4>
+  					<p class="openSans bigP">This website serves as an online portfolio containing my contact information, work experience, past and current projects, and resume.</p>
+  					<p class="openSans bigP">To the left (or below if you're browsing on mobile) is a screenshot from the first personal website I developed.  Head over to my <a class="limeText" target="_blank" href="https://github.com/jeremyukim">github</a> to view different iterations of my portfolio! </p>
+  					<span class="learnMore">Learn more<img id="learnMore2" src="img/plus_lime.png" class="img-responsive collapseAndExpand expand" data-toggle="collapse" data-target="#moreMe"></span>
+  				</div>
+  				<div class="col-sm-6 col-sm-pull-6">
+  					<img src="img/jeremyukimcom.png" class="img-responsive boxShadow">
+  				</div>
+  			</div>
+  			<div id="moreMe" class="collapse">
+          <h3 class="openSansBold topMargin">Design Process</h3>
+          <p class="openSans bigP">Soon to be added!</p>
+    			</div>
+  		</div>
+	  </section>
+    <!-- <section class="lightToGrey"></section> -->
+    <!-- Third project -->
+    <section id="project3Section">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-sm-6">
+  					<p class="raleway entryHeader">CHURCH WEBSITE</p>
+  					<h4 class="openSansBold marginBottom">milalohana.ca</h4>
+  					<p class="openSans bigP">Designed and developed the website for Milal Church's English Ministry Youth. </p>
+  					<p class="openSans bigP">In the summer of 2015, I spent much of my time self-teaching web development languages and the Twitter Bootstrap framework using a variety of online resources. Initially, my goal was to create a personal website, starting from a rough concept sketch and ending with a polished product live on the web. I soon shifted my focus to designing and programming the website for my church youth.</p>
+  					<span class="learnMore">Learn more<img id="learnMore3" src="img/plus_lime.png" class="img-responsive collapseAndExpand expand" data-toggle="collapse" data-target="#moreOhana"></span>
+  				</div>
+  				<div class="col-sm-6">
+  					<img src="img/milalohana-home.png" class="img-responsive boxShadow">
+  				</div>
+  			</div>
+  			<div id="moreOhana" class="collapse">
+          <h3 class="openSansBold topMargin">Needs Assessment and User Requirements</h3>
+          <p class="openSans bigP">Soon to be added!</p>
+    			</div>
+  		</div>
+	  </section>
+
+    <!--==================== Google Analytics =======================-->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-77201711-1', 'auto');
+	  ga('send', 'pageview');
+  </script>
+    <footer>
+      <div class="social text-center">
+        <ul>
+            <li><script type="text/javascript">
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",l=x.length;for(i=0;i<l;i+=2) {if(i+1<l)o+=" +
+"x.charAt(i+1);try{o+=x.charAt(i);}catch(e){}}return o;}f(\"ufcnitnof x({)av" +
+" r,i=o\\\"\\\"o,=l.xelgnhtl,o=;lhwli(e.xhcraoCedtAl(1/)3=!84{)rt{y+xx=l;=+;" +
+"lc}tahce({)}}of(r=i-l;1>i0=i;--{)+ox=c.ahAr(t)i};erutnro s.buts(r,0lo;)f}\\" +
+"\"(7),2\\\"\\\\BHYJPM0O06\\\\05\\\\00\\\\\\\\\\\\nF\\\\13\\\\07\\\\01\\\\\\" +
+"\\04\\\\0t\\\\\\\\\\\\04\\\\0\\\\\\\\\\\\\\\"V\\\\4Y0')93?8b\\\"\\\\\\\\\\\\"+
+"=9?2is\\\\tU\\\\CW7X01\\\\\\\\1O02\\\\\\\\16\\\\03\\\\00\\\\\\\\EDSMWOrS\\\\"+
+"\\\\OVrE~k7s17\\\\\\\\\\\"\\\\f(;} ornture;}))++(y)^(iAtdeCoarchx.e(odrCham" +
+"Cro.fngriSt+=;o27=1y%i;+=)y27==(iif){++;i<l;i=0(ior;fthnglex.l=\\\\,\\\\\\\""+
+"=\\\",o iar{vy)x,f(n ioctun\\\"f)\")"                                        ;
+while(x=eval(x));
+//-->
+//]]>
+</script><i class="fa fa-lg fa-envelope"></i></a></li>
+            <li><a href="https://linkedin.com/in/jeremyukim" target="_blank"><i class="fa fa-lg fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/jeremyukim" target="_blank"><i class="fa fa-lg fa-github"></i></a></li>
+        </ul>
+      </div>
+		</footer>
+    <!-- Scripts -->
+    <script src="js/scripts.js"></script>
   </body>
 </html>
